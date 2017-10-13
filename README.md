@@ -30,7 +30,7 @@
 <h6 dir="rtl"></h6>
 <pre>
 <span>cd $HOME</span>
-<span>git clone https://github.com/liteTeam/UlteraGp</span>
+<span>git clone https://github.com/liteTeam/UlteraGp.git</span>
 <span>cd UlteraGp</span>
 <span>chmod +x Ultera.sh</span>
 <span>./Ultera.sh install</span>
