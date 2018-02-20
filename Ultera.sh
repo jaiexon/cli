@@ -47,15 +47,15 @@ if [ ! -f ./tg/tgcli ]; then
 
    print_logo
    echo -e "\033[38;5;208m"
-   echo -e "     >>>>        @UlteraGap                                   "
-   echo -e "     >>>>        @UlteraGap                                   "
-   echo -e "     >>>>        @UlteraGap                                   "
-   echo -e "     >>>>        @UlteraGap                                   "
-   echo -e "     >>>>        @UlteraGap                                   "
+   echo -e "     >>>>        @jaiexon                                   "
+   echo -e "     >>>>        @jaiexon                                   "
+   echo -e "     >>>>        @jaiexon                                   "
+   echo -e "     >>>>        @jaiexon                                   "
+   echo -e "     >>>>        @jaiexon                                   "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
-   #sudo service redis-server restart
-   #./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
+   sudo service redis-server restart
+   ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
    ./tg/tgcli -s ./bot/bot.lua $@
 fi
